@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>ESA OTO DİZAYN</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        />
+    </head>
+
+    <body>
+        <!-- NAVIGATION BAR -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <img
+                class="navbar-brand"
+                src="images/ESA LOGO.jpg"
+                alt="Logo ESA with wings and slogan 'Think Simple'"
+                href="home.html"
+            />
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"
+                            >PRODUCTS<span class="sr-only"></span
+                        ></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT US</a>
+                    </li>
+                    <nav class="navbar navbar-light bg-light">
+                        <form class="form-inline">
+                            <div class="input-group">
+                                <input
+                                    class="form-control mr-sm-2"
+                                    type="search"
+                                    placeholder="Search"
+                                    aria-label="Search"
+                                />
+                                <i
+                                    class="fas fa-times"
+                                    id="clear-btn"
+                                    style="cursor: pointer"
+                                ></i>
+                            </div>
+                        </form>
+                    </nav>
+                </ul>
+            </div>
+            <!-- LANGUAGE SWITCH -->
+            <section class="language-switcher">
+                <a href="#" class="language" onclick="switchLanguage('tr')">
+                    TR
+                    <img
+                        src="images/turkishflag.jpg"
+                        alt="Türkçe Flag"
+                        class="flag-icon"
+                    />
+                </a>
+                <span>|</span>
+                <a href="#" class="language" onclick="switchLanguage('en')">
+                    ENG
+                    <img
+                        src="images/englishflag.jpg"
+                        alt="English Flag"
+                        class="flag-icon"
+                    />
+                </a>
+            </section>
+        </nav>
+
+        <!-- FOOTER -->
+        <footer id="footer">
+            <aside class="footer-content">
+                <p>&copy; 2024 ESA ESA OTO DİZAYN.</p>
+            </aside>
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="shipping.html">Shipping</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
+</html>
